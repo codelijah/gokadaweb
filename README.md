@@ -6,4 +6,4 @@
 
 Thanks for checking out this front-end coding challenge.
 
-<a href="https://elidawg.github.io/results-summary-component-main/"> here is the link to the live page
+<a href="https://elidawg.github.io/gokadaweb/"> here is the link to the live page
