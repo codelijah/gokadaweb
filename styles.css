@@ -17,6 +17,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     background-color: var(--dark-grey);
     height: 65px;
@@ -28,9 +32,7 @@
     border-bottom: 1px solid #434341;
     overflow: hidden;
     /* position: fixed; */
-    /* top: 0; */
-    /* z-index: 1; */
-    /* backdrop-filter: blur(10px); */
+    z-index: 1;
 }
 
 .header img {
@@ -55,7 +57,7 @@
 nav ul a:hover {
     color: var(--neutral);
     transition: all 0.2s;
-    background: var(--gokada-primary);
+    background: hsl(220, 7%, 57%, 0.1111);
 }
 
 .menu {
@@ -80,6 +82,10 @@ nav ul a:hover {
         height: 2px;
     }
 
+    nav ul a:hover {
+        background: none;
+    }
+
     .nav {
         height: 0;
         position: absolute;
@@ -95,7 +101,7 @@ nav ul a:hover {
 
     nav.active {
         /* left: 100%; */
-        /* height: 450px; */
+        height: 450px;
     }
 
     nav ul {
@@ -112,8 +118,9 @@ nav ul a:hover {
         margin: 30px;
     }
 
-    nav ul li a {
+    .nav ul li a {
         font-size: 20px;
+        font-weight: normal;
     }
 
      .menu.active .line:nth-child(2) {
