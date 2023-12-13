@@ -682,6 +682,7 @@ footer {
     background-color: var(--gokada-dark2);
     padding: 40px 20px 60px;
     margin-top: -45%;
+    /* margin-top: -135px; */
     position: relative;
 }
 
@@ -745,6 +746,12 @@ footer {
         margin-bottom: 30px;
     }
 
+}
+
+@media (min-width: 490px) {
+    footer {
+        margin-top: -20%;
+    }
 }
 
 .links p {
@@ -914,18 +921,23 @@ footer {
 
     .main-container-three-div {
         gap: 100px;
-        width: 96%;
+        width: 94%;
         margin: auto;
     }
 
     .main-container-four section{
         display: flex;
-        gap: 50px;
+        gap: 30px;
     }
 
     .main-container-four-div {
-        width: 96%;
+        width: 95%;
         margin: auto;
+    }
+
+    .main-container-four {
+        background-image: url(images/element-stripes.png);
+        background-position: 18% 15%;
     }
 
     .protection-section-two div{
@@ -935,6 +947,7 @@ footer {
 
     .protection-section-two {
         display: flex;
+        gap: 20px;
     }
 
     .protection-bottom {
@@ -944,7 +957,7 @@ footer {
     }
 
     .protection div {
-        width: 96%;
+        width: 95%;
         margin: auto;
     }
 
@@ -958,7 +971,7 @@ footer {
     }
 
     .delivery div {
-        width: 96%;
+        width: 95%;
         margin: auto;
     }
 
@@ -968,7 +981,7 @@ footer {
     }
 
     .app-download-section {
-        width: 96%;
+        width: 95%;
         margin: auto;
         display: flex;
         gap: 250px;
@@ -993,7 +1006,7 @@ footer {
     }
 
     footer section {
-        width: 96%;
+        width: 95%;
         margin: auto;
     }
     
