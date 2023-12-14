@@ -9,7 +9,7 @@ menu.onclick = function() {
 
 menu = document.querySelector(".protection-section-one");
 menu.onclick = function() {
-  navBar = document.querySelector(".protection-section-two");
+  navBar = document.querySelector(".protection-close");
   navBar.classList.toggle("active");
   menu = document.querySelector(".protection-section-one");
   menu.classList.toggle("active")

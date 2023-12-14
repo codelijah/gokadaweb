@@ -32,7 +32,6 @@ html {
     border-bottom: 1px solid #434341;
     overflow: hidden;
     /* position: fixed; */
-    z-index: 1;
 }
 
 .header img {
@@ -544,10 +543,6 @@ nav ul a:hover {
 }
 
 .protection-section-two {
-    /* background-color: var(--gokada-dark2); */
-    /* opacity: 0; */
-    /* height: 0; */
-    transition: 1s;
     padding: 70px 20px 0px;
     border-top: 1px solid var(--dark-grey);
     overflow: hidden;
@@ -559,15 +554,22 @@ nav ul a:hover {
     margin-bottom: 30px;
 }
 
-/* .protection-section-two.active {
+.protection-close {
+    height: 0;
+    /* opacity: 0; */
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.protection-close.active {
     height: 100%;
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 .protection-section-one.active img{
     transform: rotate(180deg);
     transition: all 0.5s;
-} */
+}
 
 .protection-section-two p {
     color: var(--neutral);
