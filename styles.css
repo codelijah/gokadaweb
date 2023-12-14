@@ -139,7 +139,7 @@ nav ul a:hover {
 
 }
 
-header {
+.first-section {
     background-color: var(--gokada-dark2);
     text-align: center;
     padding: 120px 15px 25px;
