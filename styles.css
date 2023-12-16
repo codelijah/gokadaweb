@@ -470,7 +470,7 @@ nav ul a:hover {
 }
 
 .main-container-four h1 {
-    /* font-size: 33px; */
+    font-size: 33px;
    color: var(--neutral);
    margin-bottom: 85px;
 }
@@ -602,6 +602,7 @@ nav ul a:hover {
 }
 
 .delivery h1 {
+    font-size: 33px;
     color: var(--neutral);
     margin-bottom: 15px;
 }
