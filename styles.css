@@ -31,7 +31,7 @@ html {
     width: 100%;
     border-bottom: 1px solid #434341;
     overflow: hidden;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .header img {
@@ -88,6 +88,7 @@ nav ul a:hover {
     .nav {
         height: 0;
         position: absolute;
+        position: fixed;
         top: 80px;
         left: 0;
         right: 0;
@@ -141,7 +142,7 @@ nav ul a:hover {
 .first-section {
     background-color: var(--gokada-dark2);
     text-align: center;
-    padding: 120px 15px 25px;
+    padding: 200px 15px 25px;
 }
 
 .header-section h1 {
